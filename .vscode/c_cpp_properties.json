@@ -1,20 +1,21 @@
 {
-  "configurations": [
-    {
-      "name": "Win32",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "defines": [
-        "_DEBUG",
-        "UNICODE",
-        "_UNICODE"
-      ],
-      "windowsSdkVersion": "10.0.17763.0",
-      "compilerPath": "D:\\cdehuanjing\\huangjing2\\mingw64\\bin\\g++.exe",
-      "cppStandard": "c++17",
-      "intelliSenseMode": "${default}"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/cdehuanjing/huangjing2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "D:\\cdehuanjing\\huangjing2\\mingw64\\bin\\g++.exe",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
 }
